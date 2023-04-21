@@ -1,0 +1,33 @@
+.list{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px  auto;
+border: 2px solid purple;
+
+}
+ .list h2 {
+    text-align: center;
+    color: rgba(0, 128, 0, 0.81);
+ }
+ .list input{
+    width: 60%;
+    height: 20px;
+    border: 1px solid purple;
+    margin-bottom: 10px;
+    outline: none ;
+ }
+ .list button {
+    max-width: 50%;
+    min-width: 20%;
+    border: 2px solid green;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+ }
+ p{
+    font-size: 20px;
+    margin: 8px auto;
+    margin-bottom: 10px;
+ }

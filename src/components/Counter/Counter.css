@@ -1,0 +1,26 @@
+.counter{
+display: flex;
+align-items: center;
+margin-top: 30px;
+flex-direction: column;
+}
+.counter p{
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: purple;
+    text-shadow: 2px 0px green;
+}
+.btnStyle {
+    display: flex;
+    flex-direction: row;
+}
+.btnStyle button{
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+    font-size: 24px;
+   border: none;
+   background-color: rgba(180, 108, 216, 0.57);
+   color: green;
+}
